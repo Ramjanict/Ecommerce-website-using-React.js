@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon_wrapper {
+    @apply border border-gray-400 rounded-full w-[50px] h-[50px] text-[22px] grid place-items-center
+  }
+
+  .feature-btn {
+    @apply bg-accents hover:accent-accentsDark text-white rounded-full px-4 py-1
+  }
+}
