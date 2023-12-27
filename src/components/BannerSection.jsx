@@ -7,14 +7,14 @@ const BannerSection = () => {
         <div className="overflow-hidden rounded-lg">
           <img
             className="hover:scale-105 transition-transform"
-            src="./src/images/banner__1.webp"
+            src="images/banner__1.webp"
             alt="Banner"
           />
         </div>
         <div className="overflow-hidden rounded-lg">
           <img
             className="hover:scale-105 transition-transform"
-            src="./src/images/banner__2.webp"
+            src="images/banner__2.webp"
             alt="Banner"
           />
         </div>

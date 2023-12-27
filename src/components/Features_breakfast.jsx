@@ -4,25 +4,25 @@ import ProductCard from "./ProductCard";
 const ramjan = [
   {
     id: 0,
-    img: "./src/images/product__5.webp",
+    img: "images/product__5.webp",
     name: "Fresh Tomato",
     price: "$210",
   },
   {
     id: 1,
-    img: "./src/images/product__2.webp",
+    img: "images/product__2.webp",
     name: "Crunchy Crisps",
     price: "$300",
   },
   {
     id: 2,
-    img: "./src/images/product__3.webp",
+    img: "images/product__3.webp",
     name: "Jewel Cranberries",
     price: "$200",
   },
   {
     id: 3,
-    img: "./src/images/product__4.webp",
+    img: "images/product__4.webp",
     name: "Almond organic",
     price: "$100",
   },
@@ -48,7 +48,7 @@ const Features_breakfast = () => {
         <div>
           <img
             className="w-full h-full object-cover"
-            src="./src/images/feature__2.webp"
+            src="images/feature__2.webp"
             alt="banner"
           />
         </div>

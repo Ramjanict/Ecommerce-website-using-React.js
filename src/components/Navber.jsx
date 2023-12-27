@@ -8,13 +8,15 @@ const Navber = () => {
     <>
       <div className="container hidden lg:block top-0 sticky z-50 bg-white pt-4">
         <div className="flex justify-between items-start">
-          <a href="#">
-            <img
-              className="w-[15%] rounded-full"
-              src="./src/images/Logo.png"
-              alt=""
-            />
-          </a>
+          <div>
+            <a href="#">
+              <img
+                className="w-[15%] rounded-full"
+                src="images/Logo.png"
+                alt=""
+              />
+            </a>
+          </div>
           <div className=" relative w-full max-w-[500px]">
             <input
               className="bg-[#f2f3f5] border-none outline-none px-6 py-3 rounded-[30px] w-full"
