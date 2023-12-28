@@ -29,10 +29,10 @@ const Navber = () => {
             />
           </div>
           <div className="flex gap-4">
-            <div className="icon_wrapper ">
+            <div className="icon_wrapper cursor-pointer ">
               <AiOutlineUser />
             </div>
-            <div className="icon_wrapper relative ">
+            <div className="icon_wrapper relative cursor-pointer ">
               <AiOutlineShoppingCart />
               <CartCountBadge size="w-[25px] h-[25px]" />
             </div>
